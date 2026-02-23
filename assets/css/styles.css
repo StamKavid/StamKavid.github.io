@@ -381,16 +381,12 @@ img {
 }
 
 /*==================== ABOUT ====================*/
-.about__img {
-    width: 200px;
-    border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
-}
-
 .about__description {
     text-align: center;
     margin-bottom: var(--mb-2-5);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about__info {
@@ -866,7 +862,6 @@ img {
         justify-self: center;
     }
 
-    .about__container,
     .portfolio__content,
     .writing__container,
     .contact__info {
@@ -945,15 +940,6 @@ img {
         margin-left: 3rem;
     }
 
-    .about__container {
-        column-gap: 5rem;
-    }
-    .about__img {
-        width: 350px;
-    }
-    .about__description {
-        text-align: initial;
-    }
     .about__info {
         justify-content: space-between;
     }
